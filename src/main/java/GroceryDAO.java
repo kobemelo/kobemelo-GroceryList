@@ -63,7 +63,7 @@ public class GroceryDAO {
             String sql = "INSERT INTO Grocery (GROCERY_NAME) VALUES (?)";
             PreparedStatement ps = connection.prepareStatement(sql);
 
-            //add code that leverages ps.setString here
+            //add codethat leverages ps.setString here
             
             ps.setInt(1,2);
             ps.setString(1, "apples");
